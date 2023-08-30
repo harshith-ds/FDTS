@@ -9,7 +9,7 @@ net.setPreferableTarget(cv2.dnn.DNN_TARGET_CPU)
 classes = ["Weapon"]
 
 # Load test images for face recognition
-test_images = ["test2.jpg","harshith_picture.jpg"]  # Add the paths of your test images
+test_images = ["test2.jpg","test1.jpg"]  # Add the paths of your test images
 test_face_encodings = []
 for image_path in test_images:
     test_image = face_recognition.load_image_file(image_path)
