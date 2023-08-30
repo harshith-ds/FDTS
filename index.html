@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <link rel="stylesheet" href="../static/global.css" />
+  <link rel="stylesheet" href="../static/index.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto Slab:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" />
+</head>
+
+<body>
+  <div class="landing-page">
+    <div class="hero1">
+      <b class="unleashing-precision-fugitive-container">Unleashing precision: Fugitive Detection
+        <span class="span"> </span>Traffic System for safer society
+      </b>
+      <img class="person-working-online-1-1" alt="img" src="../static/personworkingonline-1-1@2x.png" />
+    </div>
+    <div class="navbar2">
+      <img class="logo-icon2" alt="" src="../static/logo@2x.png" />
+
+      <div class="frame9">
+        <b class="fdts2">FDTS</b>
+        <div class="frame10">
+          <div class="home2">Home</div>
+          <a class="detection3" href="./detection.html" id="detection">Detection</a>
+          <div class="button-login2" id="buttonLoginContainer">
+            <a class="log-in1" href="./registration.html">LogOut</a>
+          </div>
+          <a class="database3" href="./database.html" id="database">Database</a>
+        </div>
+      </div>
+    </div>
+    <img class="landing-page-child" alt="" src="../static/rectangle-1.svg" />
+
+    <div class="frame11">
+      <div class="frame-child1"></div>
+      <div class="frame-child2"></div>
+      <div class="email-address">Email Address</div>
+      <div class="report-queries">Report queries:</div>
+      <button class="alert-wrapper">
+        <div class="alert">ALERT</div>
+      </button>
+    </div>
+  </div>
+
+  <script>
+    var detection = document.getElementById("detection");
+    if (detection) {
+      detection.addEventListener("click", function (e) {
+        window.location.href = "./detection.html";
+      });
+    }
+
+    var buttonLoginContainer = document.getElementById("buttonLoginContainer");
+    if (buttonLoginContainer) {
+      buttonLoginContainer.addEventListener("click", function (e) {
+        window.location.href = "./registration.html";
+      });
+    }
+
+    var database = document.getElementById("database");
+    if (database) {
+      database.addEventListener("click", function (e) {
+        window.location.href = "./database.html";
+      });
+    }
+  </script>
+</body>
+
+</html>

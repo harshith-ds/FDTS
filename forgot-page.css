@@ -1,0 +1,113 @@
+.think-1-icon {
+  position: relative;
+  width: 478px;
+  height: 475px;
+  object-fit: cover;
+}
+.forgot-password {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 96px;
+  letter-spacing: -0.02em;
+  line-height: 90px;
+  text-transform: uppercase;
+  display: inline-block;
+  color: var(--color-white);
+  width: 601px;
+  height: 192px;
+}
+.your-emailusername {
+  position: absolute;
+  top: 306px;
+  left: calc(50% - 300px);
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.09em;
+  line-height: 27.5px;
+  text-transform: capitalize;
+  font-weight: 600;
+  text-align: center;
+}
+.line-icon {
+  position: absolute;
+  top: 369px;
+  left: 1px;
+  width: 292px;
+  height: 1px;
+}
+.enter-email-id-associated {
+  position: absolute;
+  top: 210px;
+  left: 1px;
+  letter-spacing: 0.09em;
+  line-height: 27.5px;
+  font-weight: 600;
+  color: var(--color-steelblue);
+  display: inline-block;
+  width: 601px;
+}
+.rectangle-a,
+.rectangle-button {
+  position: absolute;
+  top: 0;
+  border-radius: var(--br-64xl);
+  background-color: var(--color-cadetblue);
+  width: 217px;
+  height: 60px;
+  cursor: pointer;
+}
+.rectangle-button {
+  border: 0;
+  padding: 0;
+  left: calc(50% - 230px);
+}
+.rectangle-a {
+  text-decoration: none;
+  left: calc(50% + 13px);
+}
+.login-now,
+.send-link {
+  position: absolute;
+  top: 16px;
+  left: calc(50% - 180px);
+  letter-spacing: 0.09em;
+  line-height: 27.5px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.login-now {
+  left: calc(50% + 62px);
+}
+.frame8 {
+  position: absolute;
+  top: 445px;
+  left: 0;
+  width: 460px;
+  height: 60px;
+  overflow: hidden;
+}
+.forgot-page,
+.frame7 {
+  position: relative;
+  overflow: hidden;
+}
+.frame7 {
+  width: 602px;
+  height: 505px;
+  flex-shrink: 0;
+}
+.forgot-page {
+  background-color: #ee562d;
+  width: 100%;
+  height: 740px;
+  display: flex;
+  flex-direction: row;
+  padding: 159px 118px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--sub-head-size);
+  color: var(--color-snow);
+  font-family: var(--sub-head);
+}

@@ -1,0 +1,129 @@
+.registration-child,
+.start-2-icon {
+  position: absolute;
+  top: 87px;
+  left: 301px;
+  height: 566px;
+}
+.registration-child {
+  border-radius: var(--br-6xl);
+  background-color: var(--color-cadetblue);
+  width: 838px;
+}
+.start-2-icon {
+  border-radius: var(--br-6xl) 0 0 var(--br-6xl);
+  width: 419px;
+  object-fit: cover;
+}
+.adminsign-in,
+.fugitive-detection-system {
+  position: absolute;
+  letter-spacing: 0.09em;
+  line-height: 27.5px;
+  font-weight: 600;
+}
+.fugitive-detection-system {
+  top: 0;
+  left: 73px;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 129px;
+  height: 79px;
+}
+.adminsign-in {
+  top: 124px;
+  left: 0;
+  text-transform: capitalize;
+  color: var(--color-gray-100);
+}
+.your-emailusername1 {
+  top: 186px;
+  left: 0;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-100);
+}
+.forget-password,
+.your-emailusername1,
+.your-password {
+  position: absolute;
+  letter-spacing: 0.09em;
+  line-height: 27.5px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.your-password {
+  top: 287px;
+  left: 0;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-100);
+}
+.forget-password {
+  text-decoration: none;
+  top: 360px;
+  left: 5px;
+  font-size: 14px;
+  color: inherit;
+  cursor: pointer;
+}
+.details-child,
+.details-item {
+  position: absolute;
+  top: 249px;
+  left: 0;
+  width: 292px;
+  height: 1px;
+}
+.details-item {
+  top: 359.5px;
+  left: -0.5px;
+  border-top: 2px solid var(--color-black);
+  box-sizing: border-box;
+  width: 293px;
+}
+.log-in2 {
+  text-decoration: none;
+  position: relative;
+  line-height: 27.5px;
+  text-transform: capitalize;
+  color: inherit;
+  display: inline-block;
+  width: 69.48px;
+  background-color: #f84c1e;
+  border-color:#f84c1e;
+}
+.button-login3 {
+  position: absolute;
+  top: 426px;
+  left: 83px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-orangered);
+  width: 109.48px;
+  height: 46px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-6xs) 17.896352767944336px;
+  box-sizing: border-box;
+  align-items: flex-end;
+  justify-content: flex-start;
+  cursor: pointer;
+  text-align: left;
+  font-family: var(--font-roboto-slab);
+}
+.details2 {
+  position: absolute;
+  top: 108px;
+  left: 789px;
+  width: 292px;
+  height: 472px;
+}
+.registration {
+  position: relative;
+  background-color: var(--color-orangered);
+  width: 100%;
+  height: 740px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--sub-head-size);
+  color: var(--color-white);
+  font-family: var(--sub-head);
+}

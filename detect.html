@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <link rel="stylesheet" href="../static/global.css" />
+  <link rel="stylesheet" href="../static/detection.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto Slab:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" />
+</head>
+
+<body>
+  <div class="detection">
+    <div class="detection-child"></div>
+    <div class="hero">
+      <div class="hero-child">
+        <img id="videoElement" src="https://storage.googleapis.com/python-505c0.appspot.com/cf93e1b4-1342-4f7e-940c-abee9a579de5.jpg" />
+      </div>
+      <div class="frame">
+        <div class="frame-child"></div>
+        <div class="frame-item"></div>
+        <h3 class="fugitive-details" id="box-headings">Fugitive details</h3>
+        <div class="details">
+    {% for data in datas %}
+          <div class="name">Name:
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>{{ data['name'] }}</span>
+          </div>
+          <div class="location">Location: {{ data['loc'] }}</div>
+          <div class="gender">Threat level: {{ data['photo'] }}</div>
+          <div class="gender">Gender: {{ data['gender'] }}</div>
+          <div class="no-of-crimes">No of Crimes: {{ data['number'] }}</div>
+          <div class="date">Date: {{ data['date'] }}</div>
+          <div class="threat-level">Threat level: {{ data['threat'] }}</div>
+      {% endfor %}
+        </div>
+      </div>
+      <div class="frame1">
+        <div class="frame-child"></div>
+        <div class="rectangle-div"></div>
+        <h3 class="weapon-details" id="box-headings">weapon details</h3>
+        <div class="details1">
+          <div class="name">Weapon:</div>
+          <div class="location">Threat level:</div>
+          <div class="gender">Class:</div>
+          <div class="no-of-crimes">Date:</div>
+          <div class="date">location:</div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar">
+      <img class="logo-icon" alt="" src="../static/logo@2x.png" />
+
+      <div class="frame2">
+        <b class="fdts">FDTS</b>
+        <div class="frame3">
+          <a class="home" href="/">Home</a>
+          <a class="detection1" href="#" id="detection">Detection</a>
+          <div class="button-login">
+            <a class="log-in" href="./registration.html">Log-In</a>
+          </div>
+          <a class="database" href="./database.html" id="database">Database</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--  <script>-->
+<!--    var home = document.getElementById("home");-->
+<!--    if (home) {-->
+<!--      home.addEventListener("click", function (e) {-->
+<!--        window.location.href = "/";-->
+<!--      });-->
+<!--    }-->
+
+<!--    var detection = document.getElementById("detection");-->
+<!--    if (detection) {-->
+<!--      detection.addEventListener("click", function (e) {-->
+<!--        window.location.href = "/detection";-->
+<!--      });-->
+<!--    }-->
+
+<!--    var database = document.getElementById("database");-->
+<!--    if (database) {-->
+<!--      database.addEventListener("click", function (e) {-->
+<!--        window.location.href = "./database.html";-->
+<!--      });-->
+<!--    }-->
+<!--  </script>-->
+</body>
+
+</html>

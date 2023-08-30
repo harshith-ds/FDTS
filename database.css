@@ -1,0 +1,214 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.database-child {
+  position: absolute;
+  top: -29px;
+  left: -27.69px;
+  background-color: var(--color-orangered);
+  width: 1461.5px;
+  height: 23.54px;
+  transform: rotate(37.45deg);
+  transform-origin: 0 0;
+}
+.database-history {
+  position: absolute;
+  top: 126px;
+  left: 546px;
+  font-size: 32px;
+  text-decoration: underline;
+  letter-spacing: 0.09em;
+  line-height: 27.5px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.logo-icon1 {
+  position: relative;
+  width: 79.48px;
+  height: 70px;
+  object-fit: cover;
+}
+.fdts1 {
+  position: relative;
+  line-height: 27.5px;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 92.19px;
+  flex-shrink: 0;
+}
+.frame4 {
+  width: 200.28px;
+  height: 70px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 28px;
+}
+.home1 {
+  text-decoration: none;
+  position: absolute;
+  top: 8px;
+  left: 0;
+  color: inherit;
+  width: 67.37px;
+  cursor: pointer;
+}
+.detection2,
+.home1,
+.log-out {
+  line-height: 27.5px;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.detection2 {
+  text-decoration: none;
+  position: absolute;
+  top: 9px;
+  left: 142.12px;
+  color: inherit;
+  width: 103.17px;
+  cursor: pointer;
+}
+.log-out {
+  position: relative;
+  font-size: var(--sub-head-size);
+  font-family: var(--font-roboto-slab);
+  color: var(--color-gray-100);
+  text-align: left;
+  width: 87px;
+}
+.button-login1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0 5px;
+  background-color: var(--color-orangered);
+  position: absolute;
+  top: 0;
+  left: 477.63px;
+  border-radius: var(--br-mini);
+  width: 109.48px;
+  height: 46px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: flex-end;
+  justify-content: center;
+}
+.database2 {
+  position: absolute;
+  top: 9px;
+  left: 310.63px;
+  line-height: 27.5px;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 92.64px;
+}
+.frame5 {
+  position: relative;
+  width: 587.12px;
+  height: 46px;
+  overflow: hidden;
+  flex-shrink: 0;
+  font-family: var(--font-roboto-slab);
+}
+.navbar1 {
+  position: absolute;
+  top: 25px;
+  left: 141px;
+  width: 1133.48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  color: var(--color-gray-100);
+}
+.testimonial-item-child {
+  position: absolute;
+  top: 69px;
+  left: calc(50% - 172.5px);
+  border-radius: var(--br-xl);
+  background-color: var(--color-steelblue);
+  width: 345px;
+  height: 339px;
+}
+.lorem-ipsum-dolor {
+  position: absolute;
+  top: 224px;
+  left: calc(50% - 156.5px);
+  display: inline-block;
+  width: 313px;
+  height: 103px;
+}
+.mask-group-icon {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 69.5px);
+  width: 138px;
+  height: 138px;
+  object-fit: cover;
+  mix-blend-mode: normal;
+}
+.jessica-page {
+  position: absolute;
+  top: 167px;
+  left: calc(50% - 76.5px);
+  letter-spacing: 0.09em;
+  line-height: 27.5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--sub-head);
+}
+.testimonial-item {
+  flex: 1;
+  position: relative;
+  height: 408px;
+}
+.lorem-ipsum-dolor1 {
+  margin: 0;
+  position: absolute;
+  top: 224px;
+  left: calc(50% - 156.5px);
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  width: 313px;
+  height: 103px;
+}
+.frame6 {
+  position: absolute;
+  top: 199px;
+  left: 188px;
+  width: 1065px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  font-family: var(--font-roboto);
+}
+.database1 {
+  position: relative;
+  background-color: var(--color-cadetblue);
+  width: 100%;
+  height: 860px;
+  overflow: hidden;
+  opacity: 0;
+  text-align: center;
+  font-size: var(--sub-head-size);
+  color: var(--color-white);
+  font-family: var(--sub-head);
+}
+.database1.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}
